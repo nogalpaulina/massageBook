@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  width: 600px;
+  margin: 0 auto; }
+  body #container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #B6B6B7;
+    font-family: "Lato", sans-serif; }
+    body #container header {
+      text-align: center; }
+    body #container #hero {
+      text-align: center;
+      background-color: #268AC5;
+      padding-top: 80px;
+      padding-bottom: 60px; }
+      body #container #hero .glyphicon {
+        font-size: 100px;
+        color: #fff; }
+      body #container #hero h1 {
+        color: #fff;
+        padding-top: 30px;
+        font-weight: 600;
+        letter-spacing: 1px; }
+    body #container #content {
+      padding: 60px 50px 60px 50px; }
+      body #container #content h2 {
+        color: #3E3E3F;
+        letter-spacing: none;
+        font-weight: 600;
+        margin: 0px; }
+      body #container #content #title > p {
+        color: #B6B6B7;
+        font-size: 20px; }
+      body #container #content #subtitle {
+        padding-top: 20px; }
+        body #container #content #subtitle h3 {
+          color: #595A5C;
+          line-height: 1.8;
+          font-size: 20px; }
+        body #container #content #subtitle .emphasized {
+          color: #ED028C; }
+      body #container #content #pricingPlan {
+        padding-top: 20px; }
+      body #container #content #additionalFeatures {
+        padding-top: 20px;
+        border-bottom: 1px solid #B6B6B7;
+        width: 50%; }
+      body #container #content #total {
+        padding-top: 10px;
+        text-transform: uppercase;
+        word-spacing: 54px; }
+      body #container #content h4 {
+        color: #595A5C;
+        font-weight: 600; }
+      body #container #content h5 {
+        color: #B6B6B7;
+        font-size: 16px;
+        padding-bottom: 10px; }
+        body #container #content h5 .bold {
+          font-weight: bold; }
+      body #container #content #button {
+        padding-top: 30px;
+        text-align: center;
+        margin: 0 auto; }
+        body #container #content #button .btn {
+          font-weight: bold;
+          width: 200px; }
+          body #container #content #button .btn a {
+            text-decoration: none;
+            color: #fff; }
+    body #container #navigation {
+      background-color: #F3F6F7;
+      margin: 0 auto;
+      width: 100%;
+      height: 250px;
+      padding: 60px 0px 60px 50px; }
+      body #container #navigation #resources, body #container #navigation #help, body #container #navigation #directory {
+        float: left;
+        width: 33%; }
+      body #container #navigation h4 {
+        color: #595A5C;
+        font-weight: 500; }
+      body #container #navigation a {
+        text-decoration: none;
+        color: #268AC5;
+        font-size: 16px;
+        line-height: 1.4; }
+    body #container footer {
+      padding: 30px 50px 30px 50px;
+      clear: both;
+      text-align: center; }
+      body #container footer #contact {
+        padding-top: 30px; }
+      body #container footer #footerLogo {
+        margin-top: 35px; }
+      body #container footer p {
+        color: #595A5C;
+        font-weight: 600;
+        font-size: 12px; }
+      body #container footer .colorOrange {
+        color: #F15828;
+        font-weight: bold; }
+      body #container footer .colorGray {
+        color: #3E3E3F;
+        font-weight: bold; }
