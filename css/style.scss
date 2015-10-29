@@ -6,9 +6,9 @@ $blue: #268AC5;
 $orange: #F15828;
 $darkGray: #3E3E3F;
 $mediumGray: #595A5C;
-$lightGray: #B6B6B7;
+$lightGray: #a4a4aa;
+$circleGray: #D1D2D4;
 $white: #fff;
-$pink: #ED028C;
 $lightBlue: #F3F6F7;
 
 body {
@@ -69,7 +69,7 @@ body {
 				}
 				
 				.emphasized {
-					color: $pink;
+					color: $orange;
 				}
 			}
 			
@@ -151,6 +151,15 @@ body {
 			clear: both;
 			text-align: center;
 			
+			.circle {
+				display: inline-block;
+				border-radius: 50%;
+				width: 40px;
+				height: 40px;
+				margin-left: 22px;
+				background: $circleGray;
+			}
+
 			#contact {
 				padding-top: 30px;
 			}
